@@ -1,0 +1,347 @@
+/* General Styles */
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+} */
+
+/* Navigation Styles */
+
+/* Main Content */
+/* main {
+    padding: 50px 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    animation: fadeIn 1s ease-in;
+} */
+
+/* Service Details */
+/* .service-detail {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(50px);
+    opacity: 0;
+    animation: slideIn 1s ease-in-out forwards;
+}
+
+.service-detail h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.service-detail ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.service-detail ul li {
+    margin-bottom: 5px;
+} */
+
+/* Hover Effects */
+/* .service-detail:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+} */
+
+/* Package Styles */
+/* #packages {
+    margin-top: 50px;
+}
+
+.package {
+    background-color: #e0f7fa;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 2s ease-in forwards;
+    opacity: 0;
+}
+
+.package h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.package ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.package ul li {
+    margin: 10px 0;
+    font-size: 1.1em;
+} */
+
+/* Call to Action Button */
+/* .cta-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #008c9e;
+} */
+
+/* Footer */
+/* footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+} */
+
+/* Animations */
+/* @keyframes slideIn {
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    100% {
+        opacity: 1;
+    }
+} */
+
+
+:root {
+    --primary-color: #1a1a2e;
+    --secondary-color: #16213e;
+    --accent-color: #0f3460;
+    --text-color: #e94560;
+    --light-color: #f1f1f1;
+    --font-main: 'Roboto', sans-serif;
+    --font-heading: 'Montserrat', sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-main);
+    line-height: 1.6;
+    color: var(--light-color);
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: var(--secondary-color);
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-color);
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-left: 2rem;
+  }
+  
+  nav ul li a {
+    color: var(--light-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: var(--text-color);
+  }
+  
+  /* Main Content */
+  main {
+    padding: 100px 20px 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1, h2, h3 {
+    font-family: var(--font-heading);
+    color: var(--text-color);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    animation: fadeIn 1s ease-in;
+  }
+  
+  /* Service Details */
+  .service-detail {
+    background-color: var(--secondary-color);
+    margin: 20px 0;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(50px);
+    opacity: 0;
+    animation: slideIn 1s ease-in-out forwards;
+  }
+  
+  .service-detail h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  .service-detail p {
+    margin-bottom: 20px;
+  }
+  
+  .service-detail ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .service-detail ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Hover Effects */
+  .service-detail:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+  }
+  
+  /* Package Styles */
+  #packages {
+    margin-top: 50px;
+  }
+  
+  .package {
+    background-color: var(--accent-color);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 2s ease-in forwards;
+    opacity: 0;
+    margin-bottom: 30px;
+  }
+  
+  .package h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  .package ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .package ul li {
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+  
+  /* Call to Action Button */
+  .cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: var(--text-color);
+    color: var(--light-color);
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Animations */
+  @keyframes slideIn {
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeIn {
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    nav ul {
+      margin-top: 1rem;
+    }
+  
+    nav ul li {
+      margin-left: 0;
+      margin-right: 1rem;
+    }
+  
+    .service-detail, .package {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+  
+    .service-detail h2, .package h3 {
+      font-size: 1.5em;
+    }
+  }
